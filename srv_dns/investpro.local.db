@@ -11,6 +11,6 @@ $TTL 300
 @         IN NS ns.investpro.local.
 
 ; APEX and hosts
-@         IN A 192.168.50.100
+@         IN A 192.168.50.10
 ns        IN A 192.168.50.70
 mail      IN A 192.168.50.20
