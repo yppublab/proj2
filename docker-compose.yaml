@@ -22,11 +22,11 @@ services:
       - "127.0.0.1:8000:8000" # srv_trueconf
 
   fw:
-    hostname: fw
+    hostname: router-go
     depends_on:
       - nat
     build: ./fw
-    container_name: fw
+    container_name: router-go
     privileged: true
     cap_add: ["NET_ADMIN"]
     restart: unless-stopped
